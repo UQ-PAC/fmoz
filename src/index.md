@@ -10,7 +10,7 @@ FMOz is an opportunity to meet with researchers, practioners and industry workin
 and Formal Verification, to share ideas and form collaborations. 
 
 
-[**FMOz 2026**](/2026/index.html) will be held on the **4th-5th of June**, 2026. 
+[**FMOz 2026**](2026/index.html) will be held on the **4th-5th of June**, 2026. 
 If you are interested in attending or presenting, please see the [call for
 presentations](2026/call-for-presentations.html).
 
