@@ -1,11 +1,24 @@
----
-title: 2022
-date: 2022-06-06
-template: page.html
----
+<!DOCTYPE html>
+<html lang="en">
 
-## Program
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>FMOz 2022</title>
+  <link rel="stylesheet" href="https://uq-pac.github.io/fmoz-website/axist.css" />
+</head>
+
+<body>
+  <h1>FMOℤ 2022</h1>
+  <a href="https://uq-pac.github.io/fmoz-website"> Home </a> | <a href="https://uq-pac.github.io/fmoz-website/2026/index.html"> FMOz 2026 </a> |  <a href="https://uq-pac.github.io/fmoz-website/past.html"> Previous years </a>
+  <hr>
+
+
+
+  <h2 id="program"><a class="anchor" aria-hidden="true" href="#program"></a>Program</h2>
 <table>
 <thead>
 <tr>
@@ -118,7 +131,6 @@ language</em></p></td>
 </tr>
 </tbody>
 </table>
-
 <table>
 <thead>
 <tr>
@@ -218,31 +230,23 @@ underlying Security Protocols</em></p></td>
 </tr>
 </tbody>
 </table>
-
-## Abstracts
-
-Rob van Glabeek
-
-**Mutual exclusion: impossibility results and faulty protocols**
-
-  
-
-A mutual exclusion protocol needs to satisfy 2 main requirements, and a
-few implicit ones.  
+<h2 id="abstracts"><a class="anchor" aria-hidden="true" href="#abstracts"></a>Abstracts</h2>
+<p>Rob van Glabeek</p>
+<p><strong>Mutual exclusion: impossibility results and faulty protocols</strong></p>
+<p>A mutual exclusion protocol needs to satisfy 2 main requirements, and a
+few implicit ones.<br>
 Safety: It shouldn’t allow two process to be in the critical section
-simultaneously.  
+simultaneously.<br>
 Liveness: Each process that wants to enter the critical section will
-eventually get there.  
+eventually get there.<br>
 Whether a given protocol satisfies these requirement also depends on
 whether it is speed-independent, and on the hardware of shared
-registers: can a write action be postponed by an ongoing read action?
-
-I present the impossibility result that there exists no correct mutual
+registers: can a write action be postponed by an ongoing read action?</p>
+<p>I present the impossibility result that there exists no correct mutual
 exclusion protocol satisfying both safety and liveness when assuming
 speed-independence, and that a write be postponed by a read. If we give
-up on any of these assumptions, mutual exclusion is unproblematic.
-
-An alternative for the assumption that a write can be postponed by an
+up on any of these assumptions, mutual exclusion is unproblematic.</p>
+<p>An alternative for the assumption that a write can be postponed by an
 ongoing read is that multiple reads and writes can happen
 simultaneously. But when two writes occur simultaneously, anything may
 end up the memory, and when a read overlaps a write, any value may be
@@ -250,17 +254,11 @@ read. Under those assumptions, many mutual exclusion protocols from the
 literature turn out to be incorrect, even those that set out to address
 exactly this problem, such as Szymansky’s protocol. Making a correct
 protocol is very tricky, and its verification calls for tools such as
-mCRL2.
-
----
-
-Athanasios Evangelou-Oost
-
-**Modelling distributed specifications with simplicial sets**
-
-  
-
-We discuss an algebraic model for distributed specifications. In this
+mCRL2.</p>
+<hr>
+<p>Athanasios Evangelou-Oost</p>
+<p><strong>Modelling distributed specifications with simplicial sets</strong></p>
+<p>We discuss an algebraic model for distributed specifications. In this
 model, systems are defined as simplicial presheaves, which we think of
 as sets of traces of observable behaviours closed under ’stuttering’ and
 ’mumbling’ and parametrised over a space that represents physical
@@ -269,18 +267,12 @@ nondeterministic sum, parallel product and sequential product. We then
 explain how subsystems of a fixed system form a ’refinement algebra’,
 i.e., a lattice with monoidal operators whose ordering represents
 implementability of specifications. We conclude by suggesting directions
-for future work.
-
----
-
-Rajeev Gore
-
-**CEGAR-Tableaux: improved modal satisfiability via modal
-clause-learning and SAT**
-
-  
-
-We present CEGAR-Tableaux, a tableaux-like method for propositional
+for future work.</p>
+<hr>
+<p>Rajeev Gore</p>
+<p><strong>CEGAR-Tableaux: improved modal satisfiability via modal
+clause-learning and SAT</strong></p>
+<p>We present CEGAR-Tableaux, a tableaux-like method for propositional
 modal logics utilising SAT-solvers, modal clause-learning and multiple
 optimisations from modal and description logic tableaux calculi. We use
 the standard Counter-example Guided Abstract Refinement (CEGAR) strategy
@@ -299,18 +291,11 @@ over the standard benchmarks, sometimes by orders of magnitude. It can
 now also handle all of the 15 logics in the modal cube as well as
 multimodal tense logic Kt(n) (AKA description logic ALCI). We believe
 that in the future, all tableaux calculi implementations will use
-CEGAR-Tableaux.
-
-
----
-
-Nicholas Coughlin
-
-**Rely/guarantee reasoning for weak memory models**
-
-  
-
-Rely/guarantee reasoning provides a compositional approach to the
+CEGAR-Tableaux.</p>
+<hr>
+<p>Nicholas Coughlin</p>
+<p><strong>Rely/guarantee reasoning for weak memory models</strong></p>
+<p>Rely/guarantee reasoning provides a compositional approach to the
 verification of concurrent programs. However, such reasoning
 traditionally assumes a sequentially consistent memory model. Therefore,
 its application is unsound when considering the weak memory models
@@ -326,41 +311,28 @@ are not simultaneously propagated throughout the system and, hence, may
 be observed by threads at different times. We leverage the abstractions
 provided by rely/guarantee specifications to argue for the valid
 composition of any two threads despite the possibility of differences in
-their observed stores.
-
----
-
-Brae Webb
-
-**Verifying Expression Graph Optimizations in GraalVM**
-
-  
-
-Compiler optimization passes have been shown to be prone to subtle
+their observed stores.</p>
+<hr>
+<p>Brae Webb</p>
+<p><strong>Verifying Expression Graph Optimizations in GraalVM</strong></p>
+<p>Compiler optimization passes have been shown to be prone to subtle
 implementation bugs. Almost all software relies on the faithful
 translation performed by compilers, thus implementation bugs pose a
 substantial problem. Our work focuses on addressing this problem by
 verifying the optimization passes of a state-of-the-art polyglot
-compiler, GraalVM.
-
-The GraalVM optimizing compiler represents expressions using a graph
+compiler, GraalVM.</p>
+<p>The GraalVM optimizing compiler represents expressions using a graph
 structure in SSA form. We present our efforts to verify the correctness
 of expression optimizations performed by the compiler. Proof
 infrastructure has been developed to aid the lifting of machine word
 theories in Isabelle/HOL to the compiler’s graph structure. Optimization
 rules are specified via a domain specific language from which proof
 obligations and supporting lemmas are generated. This enables
-optimization verification by non-expert users.
-
----
-
-Michael Norrish
-
-**Kalas: a verified, end-to-end compiler for a choreographic language**
-
-  
-
-Choreographies are an abstraction for globally describing deadlock-free
+optimization verification by non-expert users.</p>
+<hr>
+<p>Michael Norrish</p>
+<p><strong>Kalas: a verified, end-to-end compiler for a choreographic language</strong></p>
+<p>Choreographies are an abstraction for globally describing deadlock-free
 communicating systems. A choreography can be compiled into multiple
 endpoints preserving the global behaviour, providing a path for concrete
 system implementations. Of course, the soundness of this approach hinges
@@ -370,49 +342,29 @@ machine-checked end-to-end proof of correctness ensures all generated
 endpoints adhere to the system description, preserving the top-level
 communication guarantees. We use the verified CakeML compiler and HOL4,
 giving concrete executable implementations and statements of correctness
-at the machine code level for multiple architectures.
-
----
-
-Franck Cassez
-
-**Deductive Verification of Smart Contracts with Dafny**
-
-  
-
-We present a domain specific language (DSL) written on top of Dafny, to
-develop and formally reason about smart contracts.
-
-
----
-
-Mark Utting
-
-**Verified Ethereum Bytecode Generation**
-
-  
-
-We describe an approach to verifying the correctness of Ethereum smart
+at the machine code level for multiple architectures.</p>
+<hr>
+<p>Franck Cassez</p>
+<p><strong>Deductive Verification of Smart Contracts with Dafny</strong></p>
+<p>We present a domain specific language (DSL) written on top of Dafny, to
+develop and formally reason about smart contracts.</p>
+<hr>
+<p>Mark Utting</p>
+<p><strong>Verified Ethereum Bytecode Generation</strong></p>
+<p>We describe an approach to verifying the correctness of Ethereum smart
 contracts that goes all the way from high-level financial properties
 down to the correctness of the low-level blockchain bytecode that
 implements the smart contract. The verification process uses the VALE
 language to specify smart contracts and the semantics of Ethereum
-bytecode instructions. These are translated into F\* programs whose
+bytecode instructions. These are translated into F* programs whose
 correctness can be verified using the Z3 SMT solver. The verified
 Ethereum bytecode can be generated directly by a translator from the
-VALE specification.
-
-
----
-
-Ian Hayes
-
-**Handling localisation in rely/guarantee concurrency: An algebraic
-approach**
-
-  
-
-The rely/guarantee approach of Jones extends Hoare logic with rely and
+VALE specification.</p>
+<hr>
+<p>Ian Hayes</p>
+<p><strong>Handling localisation in rely/guarantee concurrency: An algebraic
+approach</strong></p>
+<p>The rely/guarantee approach of Jones extends Hoare logic with rely and
 guarantee conditions in order to allow compositional reasoning about
 shared-variable concurrent programs. This talk focuses on localisation
 in the context of rely/guarantee concurrency in order to support local
@@ -430,18 +382,12 @@ primitive localisation operators based on Tarski’s cylindric algebra,
 the algebra of predicate calculus (i.e. exists and for-all quantifiers),
 but generalised to commands, rather than predicates. From this we can
 prove properties of localisation, including its interaction with rely
-and guarantee conditions.
-
----
-
-Scott Heiner
-
-**Compositional feasibility for hybrid systems using an
-output-localisation operator**
-
-  
-
-Hybrid systems use discrete actions in conjunction with real-time
+and guarantee conditions.</p>
+<hr>
+<p>Scott Heiner</p>
+<p><strong>Compositional feasibility for hybrid systems using an
+output-localisation operator</strong></p>
+<p>Hybrid systems use discrete actions in conjunction with real-time
 continuous dynamics, and are present in safety-critical settings such as
 transport, health and security. Given a specification of a hybrid
 system, we would like an effective and adaptive way of proving its
@@ -457,31 +403,19 @@ liberate a program of its output during execution, extend it to remove
 timing constraints, and show that it is a refinement of the set of all
 infinite traces. To liberate the program of its output, we define an
 output-localisation operator, based on the cylindric operators used in
-Hayes and Meinicke’s work to define local variables.
-
----
-
-Nisansala Yatapanage
-
-**Using Rely/Guarantee to Pinpoint Assumptions underlying Security
-Protocols**
-
-  
-
-Rely/guarantee reasoning helps to draw out the underlying assumptions in
+Hayes and Meinicke’s work to define local variables.</p>
+<hr>
+<p>Nisansala Yatapanage</p>
+<p><strong>Using Rely/Guarantee to Pinpoint Assumptions underlying Security
+Protocols</strong></p>
+<p>Rely/guarantee reasoning helps to draw out the underlying assumptions in
 security protocols, which are often obscured by other techniques. This
 talk describes an attempt at modelling the Needham-Schroeder protocol
-using rely/guarantee reasoning.
-
----
-
-Chenyi Zhang
-
-**Taint Trace Analysis For Java Web Applications**
-
-  
-
-Taint analysis is concerned about whether a value in a program can be
+using rely/guarantee reasoning.</p>
+<hr>
+<p>Chenyi Zhang</p>
+<p><strong>Taint Trace Analysis For Java Web Applications</strong></p>
+<p>Taint analysis is concerned about whether a value in a program can be
 influenced, or tainted, by user input. Existing works on taint analysis
 focus on tracking the propagation of taint flows between variables in a
 program, and a security risk is reported whenever a taint source (user
@@ -496,17 +430,11 @@ taint propagation from taint sources to their corresponding sinks. As a
 consequence, TTA provides more useful information for developers and
 users after a vulnerability is reported. Our implementation of TTA in
 Doop adds only a small run-time overhead on top of the (amended) P/Taint
-for a range of analyses on Securibench Micro.
-
----
-
-Yi Lu
-
-**Nontransitive Information Flow Control**
-
-  
-
-Modern information-flow control (IFC) security models follow Denning’s
+for a range of analyses on Securibench Micro.</p>
+<hr>
+<p>Yi Lu</p>
+<p><strong>Nontransitive Information Flow Control</strong></p>
+<p>Modern information-flow control (IFC) security models follow Denning’s
 classical lattice approach and allow a developer to specify and track
 security labels at the granularity of program variables using a
 transitive flow relation. In this talk, we first discuss the recent work
@@ -516,4 +444,8 @@ policies where labels are specified at the modules or components. Then,
 we explore a dual-labelled security model that combines both
 fine-grained and coarse-grained labels to capture information-based
 security intents in programs that are composed of mutually untrusted
-components.
+components.</p>
+
+
+</body>
+</html>

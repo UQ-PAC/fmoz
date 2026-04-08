@@ -1,11 +1,24 @@
----
-title: 2019
-date: 2019-06-01
-template: page.html
----
+<!DOCTYPE html>
+<html lang="en">
 
-## Program
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>FMOz 2019</title>
+  <link rel="stylesheet" href="https://uq-pac.github.io/fmoz-website/axist.css" />
+</head>
+
+<body>
+  <h1>FMOℤ 2019</h1>
+  <a href="https://uq-pac.github.io/fmoz-website"> Home </a> | <a href="https://uq-pac.github.io/fmoz-website/2026/index.html"> FMOz 2026 </a> |  <a href="https://uq-pac.github.io/fmoz-website/past.html"> Previous years </a>
+  <hr>
+
+
+
+  <h2 id="program"><a class="anchor" aria-hidden="true" href="#program"></a>Program</h2>
 <table>
 <thead>
 <tr>
@@ -120,7 +133,6 @@ structures</em></p></td>
 </tr>
 </tbody>
 </table>
-
 <table>
 <thead>
 <tr>
@@ -232,41 +244,28 @@ Meiring</strong></span><br />
 </tr>
 </tbody>
 </table>
-
-## Abstracts
-
-Peter Höfner
-
-**Sometimes Less is More: Why too many input languages can harm a system
-or tool**
-
-  
-
-Over the last decade we have seen that standard tools accept more and
+<h2 id="abstracts"><a class="anchor" aria-hidden="true" href="#abstracts"></a>Abstracts</h2>
+<p>Peter Höfner</p>
+<p><strong>Sometimes Less is More: Why too many input languages can harm a system
+or tool</strong></p>
+<p>Over the last decade we have seen that standard tools accept more and
 more input languages. For example it is nowadays standard that a model
 checker accepts more than three input languages. At first glance the
 benefit for the user is undeniable. But are there any drawbacks in this
-approach?
-
-In this talk I will argue that the addition of input languages have to
+approach?</p>
+<p>In this talk I will argue that the addition of input languages have to
 be taken seriously and one has to act with a lot of caution. I will show
 that without caution the model checker may produce false results. I will
 also report on a case study where we added the language AWN to the set
 of input languages of the the model checker mCRL2. The case study
 revealed not only some traps one may fall into when adding another input
 language, but also shows the expenses (time-wise and money-wise) of such
-an extension.
-
----
-
-Guangdong Bai
-
-**Towards Model Checking Event-driven Android Applications for   Security
-Properties**
-
-  
-
-As feature-rich Android applications are increasingly popularized in
+an extension.</p>
+<hr>
+<p>Guangdong Bai</p>
+<p><strong>Towards Model Checking Event-driven Android Applications for   Security
+Properties</strong></p>
+<p>As feature-rich Android applications are increasingly popularized in
 security-sensitive scenarios, methods to verify their security
 properties are highly desirable. This talk will introduce our approach
 that uses software model checking technique to verify Android apps. We
@@ -276,19 +275,12 @@ caused by event-driven execution paradigm, and alleviates state space
 explosion. DroidPF has been evaluated with real-world apps, third-party
 libraries, malware samples and benchmarks. It precisely identifies
 nearly all of the previously known security issues and several
-previously unreported vulnerabilities/bugs.
-
-
----
-
-Nicholas Coughlin
-
-**Value-dependent information-flow security on weak memory  
-models**
-
-  
-
-Weak memory models implemented on modern multicore processors are known
+previously unreported vulnerabilities/bugs.</p>
+<hr>
+<p>Nicholas Coughlin</p>
+<p><strong>Value-dependent information-flow security on weak memory<br>
+models</strong></p>
+<p>Weak memory models implemented on modern multicore processors are known
 to affect the correctness of concurrent code. They can also affect
 whether or not the code is secure. This is particularly the case in
 programs where the security levels of variables are value-dependent,
@@ -300,18 +292,12 @@ to detect such vulnerabilities. The logic allows step-local reasoning
 (one instruction at a time) about a thread’s security by tracking
 information about dependencies between instructions which guarantee
 their order of occurrence. Program security can then be established from
-individual thread security using rely/guarantee reasoning.
-
----
-
-Rob Colvin
-
-**A semantics of speculative execution for reasoning about security
-vulnerabilities**
-
-  
-
-Reasoning about correctness and security of software is increasingly
+individual thread security using rely/guarantee reasoning.</p>
+<hr>
+<p>Rob Colvin</p>
+<p><strong>A semantics of speculative execution for reasoning about security
+vulnerabilities</strong></p>
+<p>Reasoning about correctness and security of software is increasingly
 difficult due to the complexity of modern microarchitectural features
 such as out-of-order execution. A class of security vulnerabilities
 termed Spectre that exploits side effects of speculative, out-of-order
@@ -326,18 +312,11 @@ permit abstract reasoning techniques. We add an abstract cache to the
 global state of the system, and derive some general refinement rules
 that expose cache side effects due to speculative loads. The rules are
 encoded in a simulation tool, which we use to analyse an abstract
-specification of a Spectre attack and vulnerable code fragments.
-
-
----
-
-Graeme Smith
-
-**Correctness of concurrent library components**
-
-  
-
-Specifications of concurrent objects abstract from the interleaving of
+specification of a Spectre attack and vulnerable code fragments.</p>
+<hr>
+<p>Graeme Smith</p>
+<p><strong>Correctness of concurrent library components</strong></p>
+<p>Specifications of concurrent objects abstract from the interleaving of
 operation calls possible in an implementation. Instead, operations are
 regarded as atomic and notions such as linearizability are used to
 verify correctness. When concurrent objects are run on multicore
@@ -349,24 +328,18 @@ equates with correctness. This talk examines the alternative point of
 view by allowing weak memory effects in specifications, and examine the
 consequences in terms of the necessary weakening of linearizability
 required, and the allowable implementations of typical concurrent
-objects.
-
-Lindsay Groves
-
-**Verifying programs that use concurrent data structures**
-
-  
-
-It is widely claimed that linearisability is the generally accepted
+objects.</p>
+<p>Lindsay Groves</p>
+<p><strong>Verifying programs that use concurrent data structures</strong></p>
+<p>It is widely claimed that linearisability is the generally accepted
 correctness condition for shared data structures (aka shared objects).
 Yet, there have been many proposals for alternative correctness (or
 consistency) conditions. Curiously, these alternatives are tyically
 (possibly even invariably) motivated by the desire to allow more
 efficient implementations, or some other theoretical considerations,
 rather that by any consideration for correctness or when such conditions
-might be appropirate.
-
-In this talk, we will look more closely at just what linearisability
+might be appropirate.</p>
+<p>In this talk, we will look more closely at just what linearisability
 means from the point of view of clients that use a shared data
 structure, considering such questions as: How does the fact that a
 concurrent data structure is linearisable help us to verify a client
@@ -375,17 +348,11 @@ linearisable, or would a weaker condition sometimes be sufficient - and
 if so, when? Time permitting, we will also look briefly at the question
 of just what it means to be a concurrent version of a familiar
 sequential data structure such as a stack, queue, etc, and whether a
-more appropirate semantic decription might be possible.
-
----
-
-Walter Guttmann
-
-**Connecting Fixpoints of Computations with Strict Progress**
-
-  
-
-We study the semantics of recursion for computations that make strict
+more appropirate semantic decription might be possible.</p>
+<hr>
+<p>Walter Guttmann</p>
+<p><strong>Connecting Fixpoints of Computations with Strict Progress</strong></p>
+<p>We study the semantics of recursion for computations that make strict
 progress. The underlying unified computation model has an abstract
 notion of progress, which instantiates in ways such as longer traces,
 passing of real time, or counting the number of steps. Recursion is
@@ -393,18 +360,12 @@ given by least fixpoints in a unified approximation order. Other
 time-based models define the semantics of recursion by greatest
 fixpoints in the implication order. We give sufficient criteria for when
 least fixpoints in the approximation order coincide with greatest
-fixpoints in the implication order.
-
----
-
-Larissa Meinicke
-
-**An algebraic treatment of local variables in rely/guarantee  
-concurrency**
-
-  
-
-The rely/guarantee approach of Jones extends Hoare logic with rely and
+fixpoints in the implication order.</p>
+<hr>
+<p>Larissa Meinicke</p>
+<p><strong>An algebraic treatment of local variables in rely/guarantee<br>
+concurrency</strong></p>
+<p>The rely/guarantee approach of Jones extends Hoare logic with rely and
 guarantee conditions in order to allow compositional reasoning about
 shared-variable concurrent programs. In this talk we focus on
 localisation in the context of rely/guarantee concurrency in order to
@@ -416,26 +377,19 @@ remaining constructs are defined. To support local variables we add a
 primitive localisation operator to our algebra that is used to define
 local variable blocks. From this we can prove properties of
 localisation, including its interaction with rely and guarantee
-conditions.
-
----
-
-Dirk Pattinson
-
-**Modular Synthesis of Verified Verifiers of Computation with STV
-Algorithms**
-
-  
-
-Single transferable vote (STV) is a family of preferential voting
+conditions.</p>
+<hr>
+<p>Dirk Pattinson</p>
+<p><strong>Modular Synthesis of Verified Verifiers of Computation with STV
+Algorithms</strong></p>
+<p>Single transferable vote (STV) is a family of preferential voting
 systems, different instances of which are used in binding elections
 throughout the world. We give a formal specification of this family,
 from which we derive fully verified tools that verify the computation
 for various instances of STV vote counting. These tools validate an
 execution of an STV vote counting algorithm, based on a transcript of
-the count.
-
-Our framework distils the similarities and differences of various
+the count.</p>
+<p>Our framework distils the similarities and differences of various
 instances of STV and gives a uniform and modular way of synthesising
 verifiers for its various instances, and provides the flexibility and
 ease for adapting and extending it to a variety of STV schemes. We
@@ -448,55 +402,35 @@ CakeML are almost completely automated so that new verified instances of
 STV can be created with no (or minimal) extra proof. Finally, our
 experimental results with executable code demonstrate feasibility of
 deploying the framework for verifying real size elections having an STV
-counting algorithm.
-
----
-
-Mark Utting
-
-**Verifying Whiley Programs with Boogie**
-
-  
-
-The quest to develop increasingly sophisticated verification systems
+counting algorithm.</p>
+<hr>
+<p>Mark Utting</p>
+<p><strong>Verifying Whiley Programs with Boogie</strong></p>
+<p>The quest to develop increasingly sophisticated verification systems
 continues unabated. Tools such as Dafny, Spec#, ESC/Java, SPARK Ada, and
 Whiley attempt to seamlessly integrate specification and verification
-into a programming language, in a similar way to type checking.
-
-A common integration approach is to translate these input languages into
+into a programming language, in a similar way to type checking.</p>
+<p>A common integration approach is to translate these input languages into
 a “high-level” intermediate verification language such as Boogie, which
 then handles the generation of verification conditions. This provides a
 nice separation of concerns, and allows different theorem provers to be
-used interchangeably.
-
-In this talk, we describe a formal set of rules for translating Whiley
+used interchangeably.</p>
+<p>In this talk, we describe a formal set of rules for translating Whiley
 into Boogie, and the challenges that arose in formalising the
 translation. We also demonstrate three kinds of unsoundness that arose,
-and the solutions that we took.
-
----
-
-Henry O’Brien
-
-**Challenges in Formal Verification of Software Defined Networks**
-
-  
-
-In this presentation we will present an overview of the different ways
+and the solutions that we took.</p>
+<hr>
+<p>Henry O’Brien</p>
+<p><strong>Challenges in Formal Verification of Software Defined Networks</strong></p>
+<p>In this presentation we will present an overview of the different ways
 of specifying SDNs and the correctness issues they face. We will also
 present a summary of the main verification techniques used to verify the
 correctness along with their limitations. We will outline our approach
-to overcoming some of these limitations.
-
----
-
-Rob van Glabbeek
-
-**A Process Algebra for Link Layer Protocols**
-
-  
-
-We propose a process algebra for link layer protocols, featuring a
+to overcoming some of these limitations.</p>
+<hr>
+<p>Rob van Glabbeek</p>
+<p><strong>A Process Algebra for Link Layer Protocols</strong></p>
+<p>We propose a process algebra for link layer protocols, featuring a
 unique mechanism for modelling frame collisions. We also formalise
 suitable liveness properties for link layer protocols specified in this
 framework. To show applicability we model and analyse two versions of
@@ -505,27 +439,22 @@ protocol. Our analysis confirms the hidden station problem for the
 version without virtual carrier sensing. However, we show that the
 version with virtual carrier sensing not only overcomes this problem,
 but also the exposed station problem with probability 1. Yet the
-protocol cannot guarantee packet delivery, not even with probability 1.
-
-This is joint work with Peter Höfner and Michael Markl
-
----
-
-Patrick Meiring
-
-**Sandbox Types for Object-Capabilities**
-
-  
-
-I will present "Sandbox Types for Object-Capabilities": a lightweight
+protocol cannot guarantee packet delivery, not even with probability 1.</p>
+<p>This is joint work with Peter Höfner and Michael Markl</p>
+<hr>
+<p>Patrick Meiring</p>
+<p><strong>Sandbox Types for Object-Capabilities</strong></p>
+<p>I will present &quot;Sandbox Types for Object-Capabilities&quot;: a lightweight
 approach for sandboxing application components written in
 object-capability languages. The approach uses a type system for
 constraining the references reachable from sandboxed objects and
 achieves security guarantees similar to OS-level sandboxes (in that
 components are restricted to using its host system via a limited
-interface).
-
-I will show how our work contributes to the goal of writing more secure
+interface).</p>
+<p>I will show how our work contributes to the goal of writing more secure
 systems, demonstrate its implementation in Java, and provide an overview
-of its soundness proof in Isabelle/HOL.
+of its soundness proof in Isabelle/HOL.</p>
 
+
+</body>
+</html>

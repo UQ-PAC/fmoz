@@ -5,17 +5,12 @@ template: page.html
 
 FMOz will be held at the University of Queensland, 4th and 5th of June, 2026.
 
-Please see the [call for presentations](/2026/call-for-presentations.html).
-Attendence is free, however please [register
-here](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=z3fjtrOdy0aRovrZYFuxXBecxVEIwgJDkTosgWkXXgBURVdENEFDSks4M0sxOTRTRFUzMVNYOTE1SS4u)
-early so we have estimates for room bookings.
-
 ### Presentations
 
-If you wish to present a talk, please also submit a title and abstract to the
-[speaker
+If you wish to present a talk, please also submit a title and abstract by email
+or to the [speaker
 registration](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=z3fjtrOdy0aRovrZYFuxXBecxVEIwgJDkTosgWkXXgBUNVNPM1hDUk4zNEVVODYxTzA2UUdWMUxKOS4u)
-form so by DATE.
+form.
 
 Talk selection is non-competitive as far as possible and we do our utmost to
 provide time to everyone who wishes to present. Presentations may be complete

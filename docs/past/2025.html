@@ -1,11 +1,24 @@
----
-title: 2025
-date: 2025-06-01
-template: page.html
----
+<!DOCTYPE html>
+<html lang="en">
 
-## Program
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>FMOz 2025</title>
+  <link rel="stylesheet" href="https://uq-pac.github.io/fmoz-website/axist.css" />
+</head>
+
+<body>
+  <h1>FMOℤ 2025</h1>
+  <a href="https://uq-pac.github.io/fmoz-website"> Home </a> | <a href="https://uq-pac.github.io/fmoz-website/2026/index.html"> FMOz 2026 </a> |  <a href="https://uq-pac.github.io/fmoz-website/past.html"> Previous years </a>
+  <hr>
+
+
+
+  <h2 id="program"><a class="anchor" aria-hidden="true" href="#program"></a>Program</h2>
 <table>
 <thead>
 <tr>
@@ -140,8 +153,6 @@ Weekly.</em></p></td>
 </tr>
 </tbody>
 </table>
-
-
 <table>
 <thead>
 <tr>
@@ -262,20 +273,12 @@ Cumming</strong></span><br />
 </tr>
 </tbody>
 </table>
-
-## Abstracts
-
-
-Gernot Heiser (UNSW)  
-
-**LionsOS: Designed for speed *and* verification**
-
-  
-
-This talk will give an overview of the state and roadmap of the LionsOS
-project.
-
-LionsOS is an seL4-based operating system (OS) designed and built from
+<h2 id="abstracts"><a class="anchor" aria-hidden="true" href="#abstracts"></a>Abstracts</h2>
+<p>Gernot Heiser (UNSW)</p>
+<p><strong>LionsOS: Designed for speed <em>and</em> verification</strong></p>
+<p>This talk will give an overview of the state and roadmap of the LionsOS
+project.</p>
+<p>LionsOS is an seL4-based operating system (OS) designed and built from
 scratch and aimed at embedded/cyberphysical systems. Its design aims to
 enabling formal verification without compromising performance, in fact
 it outperforms Linux on networking and storage benchmarks. This is
@@ -285,61 +288,40 @@ modules comprising only a few 100 lines of code. We have already
 demonstrated verification of a high-performance Ethernet driver (details
 covered in Miki Tanaka’s talk on the Pancake language). LionsOS is
 currently deployed for hosting the sel4.systems web site, and we have
-built a number of other sample systems, including a simple firewall.
-
-  
----
-
-Miki Tanaka (UNSW)  
-
-**Verifying device drivers with Pancake**
-
-  
-
-Pancake is an imperative language for system programming that features a
+built a number of other sample systems, including a simple firewall.</p>
+<hr>
+<p>Miki Tanaka (UNSW)</p>
+<p><strong>Verifying device drivers with Pancake</strong></p>
+<p>Pancake is an imperative language for system programming that features a
 verified compiler and a well-defined, verification-friendly semantics.
 We now have integrated Pancake into Viper SMT verification
 infrastructure via an automatic transpiler to establish end-to-end
 functional correctness for Pancake programs. Using this framework, we
 have formally verified a performant real-world Ethernet driver. In this
 talk, we present the driver verification workflow, Viper front-end
-encodings for Pancake, and the future challenges.
-
----
-  
-Kostyantyn Vorobyov (Oracle Labs)  
-
-**Analysing the Security Posture of Cloud Applications**
-
-  
-
-A cloud environment, such as Oracle Cloud, allows to protect a deployed
+encodings for Pancake, and the future challenges.</p>
+<hr>
+<p>Kostyantyn Vorobyov (Oracle Labs)</p>
+<p><strong>Analysing the Security Posture of Cloud Applications</strong></p>
+<p>A cloud environment, such as Oracle Cloud, allows to protect a deployed
 application and its assets using a multitude of security measures
 including encryption, authentication, identity and access control,
 network segmentation. However, even though these security measures can
 in general provide strong security guarantees, configuration of these
 mechanisms is complex issue. As a result, misconfigured or overly
-permissive policies can lead to security breaches.
-
-Due to the fragmented nature of security configurations, security
+permissive policies can lead to security breaches.</p>
+<p>Due to the fragmented nature of security configurations, security
 analysis of a deployed application is not straightforward. The tools
 targeting individual components exist, however, they cannot analyse
 interactions between different policies. To address this issue, we
 developed an intermediate representation that allows to model the
 different security policies as a single system and an associated policy
 language capable of analysing the security posture of a cloud
-application in its entirety using assertions based on first-order logic.
-
-  
----
-
-Alicia Michael (UQ - DSTG)  
-
-**Boogie-Backed Translation Validation for Binary Decompilation**
-
-  
-
-The problem of verification of source code programs subject to
+application in its entirety using assertions based on first-order logic.</p>
+<hr>
+<p>Alicia Michael (UQ - DSTG)</p>
+<p><strong>Boogie-Backed Translation Validation for Binary Decompilation</strong></p>
+<p>The problem of verification of source code programs subject to
 compilation is well-understood. In order for verification outcomes to
 transfer to the programs at execution we need some assurance that the
 compilation process preserves our proof. This has been addressed widely
@@ -349,24 +331,17 @@ verification directly at the binary level. This however, incurs the
 problem of lifting, or decompilation, in order to increase the program
 context-window available to analysis techniques like abstract
 interpretation and deductive verification. We again find ourselves
-needing assurance that the *decompilation* preserves the behaviour of
+needing assurance that the <em>decompilation</em> preserves the behaviour of
 the original binary program. We present a work that re-uses the Boogie
 verification infrastructure traditionally used for source-level
 functional correctness proof, to additionally verify the correctness of
 decompilation code-transform passes using translation validation or
-“witness generation” techniques.
-
-  
----
-
-Aaron Bembenek (University of Melbourne)  
-
-**Inferring Loop Invariants in Lifted Binaries using Constrained Horn
-Clause Solving**
-
-  
-
-Inferring loop invariants is a key step for automating verification and,
+“witness generation” techniques.</p>
+<hr>
+<p>Aaron Bembenek (University of Melbourne)</p>
+<p><strong>Inferring Loop Invariants in Lifted Binaries using Constrained Horn
+Clause Solving</strong></p>
+<p>Inferring loop invariants is a key step for automating verification and,
 although loop invariant inference has been widely explored for source
 code and compiler intermediate languages, little work has been done on
 inferring loop invariants in lifted binaries, which lack high-level
@@ -387,19 +362,12 @@ demonstrate how our CHC-based approach can be used to infer and validate
 memory regions in Basm programs. Our results demonstrate the feasibility
 of applying advanced reasoning techniques to lifted binaries and point
 to the potential to automate verification in scenarios where source code
-is unavailable or binary-level certification is necessary.
-
----
-  
-
-Sadra Bayat Tork (UQ)  
-
-**BASIL-DSA: Context- and Field-Sensitive Memory Analysis for lifted
-binaries**
-
-  
-
-Sound memory analysis is a requirement for reasoning about correctness
+is unavailable or binary-level certification is necessary.</p>
+<hr>
+<p>Sadra Bayat Tork (UQ)</p>
+<p><strong>BASIL-DSA: Context- and Field-Sensitive Memory Analysis for lifted
+binaries</strong></p>
+<p>Sound memory analysis is a requirement for reasoning about correctness
 of many programs and program transforms. Pointer-analysis,
 alias-analysis, value-analysis, indirect call resolution, etc. aim to
 soundly over-approximate memory locations and their values used in
@@ -412,17 +380,11 @@ analysis adapted from Data Structure Analysis (DSA). We introduce a new
 unification scheme based on incrementally discovering memory access
 intervals instead of using type information. Additionally, we
 parameterize the analysis to allow for different sets of assumptions on
-memory access behaviours.
-
----
-  
-Jack Stodart ( ANU )  
-
-**Interacting with Automatic Verifiers without Looking Under the Hood**
-
-  
-
-Automatic software verifiers have an ambitious goal: quick formal
+memory access behaviours.</p>
+<hr>
+<p>Jack Stodart ( ANU )</p>
+<p><strong>Interacting with Automatic Verifiers without Looking Under the Hood</strong></p>
+<p>Automatic software verifiers have an ambitious goal: quick formal
 verification of software at the level of source code annotations. While
 successful, modern verifiers are still unable to automatically verify
 complex real-world programs and when verification fails it can be
@@ -433,22 +395,16 @@ proof terms not human readable. Instead, we would like ways to extend
 automatic verifiers with interactive proofs, but at the level of the
 source code. This talk compares new methods for doing this with a case
 study: verifying the Bellman-Ford algorithm in Viper, a state of the art
-automatic verifier.
-
----
-
-Horacio Mijail Anton Quiles ( UQ )  
-
-**DARUM: diagnosing and pinpointing slow verification in Dafny**
-
-  
-
-Dafny is a verification-friendly language that translates its high-level
+automatic verifier.</p>
+<hr>
+<p>Horacio Mijail Anton Quiles ( UQ )</p>
+<p><strong>DARUM: diagnosing and pinpointing slow verification in Dafny</strong></p>
+<p>Dafny is a verification-friendly language that translates its high-level
 constructs to assertions discharged by automated theorem provers (ATP)
 like Z3. This automation significantly flattens the learning curve
 compared to that of interactive theorem provers (ITP), making Dafny a
 welcoming entry ramp for mainstream developers. However, a common issue
-encountered by Dafny users is that verification turns \*brittle\* as
+encountered by Dafny users is that verification turns *brittle* as
 projects grow: trivial code changes cause big verification slowdowns of
 unrelated code. This problem arises from the expanding verification
 context generated by Dafny, combined with the inherent randomness in the
@@ -456,26 +412,20 @@ Z3 black box. The official advice is to find a balance between adding
 context to the code and reducing code size, but the toolchain offers
 virtually no insight into the process. Here, we show that, by exploiting
 the randomness and analyzing the resulting verification costs reported
-by Z3, we can  
-(1) distinguish brittleness from inherently costly verification;  
-(2) detect brittleness before it turns into an acute problem;  
-(3) pinpoint brittleness down to specific Dafny expressions;  
-(4) rank brittle code by potential for improvement.  
+by Z3, we can<br>
+(1) distinguish brittleness from inherently costly verification;<br>
+(2) detect brittleness before it turns into an acute problem;<br>
+(3) pinpoint brittleness down to specific Dafny expressions;<br>
+(4) rank brittle code by potential for improvement.<br>
 To automate these analysis, we introduce our user-friendly tool DARUM,
 and provide a couple of examples of its application. DARUM offers some
 light to guide the blind approaches to brittleness management used to
 date, and its techniques might apply to other toolchains based on Z3 or
-other ATPs.
-
----
-  
-Ralf Huuck (UNSW)  
-
-**About Delivering Formal Methods to Millions of Developers. Weekly.***
-
-  
-
-Formal methods have the stigma of being hard to learn, sometimes a bit
+other ATPs.</p>
+<hr>
+<p>Ralf Huuck (UNSW)</p>
+<p><strong>About Delivering Formal Methods to Millions of Developers. Weekly.</strong>*</p>
+<p>Formal methods have the stigma of being hard to learn, sometimes a bit
 obscure, and with limited industrial applications. This presentation
 shines a light on some of the positive impact that formal reasoning and
 logics had in making a real difference to software engineers. In
@@ -486,18 +436,11 @@ We will give a background of our work with commercial static analysis
 vendors, how we implement security rules for vulnerability detection in
 domain specific languages and how those security rules get packaged and
 shipped. Moreover, we highlight some of the opportunities to work in
-that space and the shifting landscape of skillsets required.
-
-  
----
-
-Ian Hayes & Larissa Meinicke ( UQ )  
-
-**Restructuring a concurrent refinement algebra**
-
-  
-
-The concurrent refinement algebra has been developed to support
+that space and the shifting landscape of skillsets required.</p>
+<hr>
+<p>Ian Hayes &amp; Larissa Meinicke ( UQ )</p>
+<p><strong>Restructuring a concurrent refinement algebra</strong></p>
+<p>The concurrent refinement algebra has been developed to support
 rely/guarantee reasoning about concurrent programs. The algebra supports
 atomic commands and defines parallel composition as a synchronous
 operation, as in Milner’s SCCS. In order to allow specifications to be
@@ -514,19 +457,11 @@ structure is incorporated in the form of compatible sets of commands,
 including tests and atomic commands. These facilitate stronger
 (equality) interchange and distributive laws. This talk describes the
 result of restructuring the algebra to better exploit these
-commonalities. The algebra is implemented in Isabelle/HOL.
-
-  
----
-
-
-Scott Heiner ( UQ )  
-
-**Cylindric biquantales: taking steps towards strong realisability in hybrid models**
-
-  
-
-A classical example of a cylindric operator is existential
+commonalities. The algebra is implemented in Isabelle/HOL.</p>
+<hr>
+<p>Scott Heiner ( UQ )</p>
+<p><strong>Cylindric biquantales: taking steps towards strong realisability in hybrid models</strong></p>
+<p>A classical example of a cylindric operator is existential
 quantification, which liberates the value of a variable in a single
 state. While cylindric operators are based in boolean algebras, similar
 properties have been shown for lattice monoidal structures, such as
@@ -539,28 +474,16 @@ systems, where a program can always produce an output for any given
 input. For this talk, we take some initial steps towards proving strong
 realisability, which enforces a delay between producing an output given
 some input. This includes definitions of deterministic commands and
-*δ*-guarded commands.
-
-  
----
-
-Annabelle McIver (Macquarie University)  
-
-**Probabilistic Datatypes:  
-Automating verification for abstract probabilistic reasoning**
-
-  
-  
----
-
-Luigi D. C. Soares (Macquarie University)  
-
-**A new measure for dynamic leakage based on quantitative information
-flow**
-
-  
-
-Quantitative information flow (QIF) is concerned with assessing the
+<em>δ</em>-guarded commands.</p>
+<hr>
+<p>Annabelle McIver (Macquarie University)</p>
+<p><strong>Probabilistic Datatypes:<br>
+Automating verification for abstract probabilistic reasoning</strong></p>
+<hr>
+<p>Luigi D. C. Soares (Macquarie University)</p>
+<p><strong>A new measure for dynamic leakage based on quantitative information
+flow</strong></p>
+<p>Quantitative information flow (QIF) is concerned with assessing the
 leakage of information in computational systems. In QIF, there are two
 main perspectives for the quantification of leakage. On one hand, the
 static perspective considers all possible runs of the system in the
@@ -585,19 +508,12 @@ monotonicity and the DPI might not hold, and explain the implications of
 this (counter-intuitive) outcome; (iv) we show that our definition of
 dynamic leakage is compatible with the well-established static
 perspective; and (v) we exemplify the use of our definition on the
-formalisation of privacy attacks against data releases.
-
-  
----
-
-Robert Colvin (UQ - DSTG)  
-
-**Structural operational semantics for functional and security verification
-of pipelined processors (CAV ’25 practice)**
-
-  
-
-The design of computer microarchitectures is a challenging task,
+formalisation of privacy attacks against data releases.</p>
+<hr>
+<p>Robert Colvin (UQ - DSTG)</p>
+<p><strong>Structural operational semantics for functional and security verification
+of pipelined processors (CAV ’25 practice)</strong></p>
+<p>The design of computer microarchitectures is a challenging task,
 involving a trade-off between efficiency and security. In the
 literature, two concerns which are affected by the details of the
 microarchitecture – formal assembly semantics, and vulnerability
@@ -612,18 +528,11 @@ stages of the pipeline and are based almost entirely on syntactic
 aspects of fetched instructions, as is generally understood to be the
 case in real pipelines. We develop a model checker in Haskell based
 closely on the semantics, which we use to experimentally validate the
-model and to provide the basis for security analyses.
-
-  
----
-
-Sasha Pak (ANU)  
-
-**Towards Extending Rust’s Type System: a Study of Formal Models**
-
-  
-
-Rust aims to be a performant and secure systems programming language
+model and to provide the basis for security analyses.</p>
+<hr>
+<p>Sasha Pak (ANU)</p>
+<p><strong>Towards Extending Rust’s Type System: a Study of Formal Models</strong></p>
+<p>Rust aims to be a performant and secure systems programming language
 through a clever region-based type system. While effective in many
 cases, it can sometimes reject intuitive and safe code. To reduce
 reliance on common workarounds, future extensions are already being
@@ -631,17 +540,11 @@ developed. However, making the type system more expressive without
 compromising soundness requires formal reasoning. Rust’s formal
 specifications are still under active development. In this talk, I
 review the current landscape of Rust formalizations to identify a
-suitable foundation for exploring and validating such extensions.
-
----
-  
-Zhe Hou (Griffith University)  
-
-**An LLM agent for model checking using PAT**
-
-  
-
-While LLMs exhibit exceptional language understanding capability and
+suitable foundation for exploring and validating such extensions.</p>
+<hr>
+<p>Zhe Hou (Griffith University)</p>
+<p><strong>An LLM agent for model checking using PAT</strong></p>
+<p>While LLMs exhibit exceptional language understanding capability and
 adaptability, their unreliable outputs pose a major challenge.
 Conversely, FMs provide rigorous verification and reasoning techniques
 but have steep learning curves and scalability limitations. We have been
@@ -653,17 +556,11 @@ agents have brought that day closer. With our prototype LLM PAT agent,
 the user can specify the problem in natural language and see it being
 modelled and verified automatically with minimal human intervention. Our
 method uses a multi-LLM-agent architecture with the latest models to
-effectively solve the auto-formalisation problem in model checking.
-
----
-  
-Daniel Cumming (Runtime Verification)  
-
-**Verification of Rust with K!**
-
-  
-
-I will present an explanation / demo of the approach to defining the
+effectively solve the auto-formalisation problem in model checking.</p>
+<hr>
+<p>Daniel Cumming (Runtime Verification)</p>
+<p><strong>Verification of Rust with K!</strong></p>
+<p>I will present an explanation / demo of the approach to defining the
 operational semantics of Stable MIR (an intermediate representation of
 Rust) in K. An advantage to defining operational semantics in K is that
 the a partial semantics is still executable, if a production is reached
@@ -676,6 +573,8 @@ evaluated but is not considered a valid term of any evaluation sort.
 This delays halting in the semantics to a point where evaluation of an
 unimplemented term is required in an operation with that term, and not
 where the term is introduced, providing us with more information to
-define the semantics of the use of the term.
+define the semantics of the use of the term.</p>
 
-  
+
+</body>
+</html>

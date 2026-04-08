@@ -1,11 +1,24 @@
----
-title: 2023
-date: 2023-06-01
-template: page.html
----
+<!DOCTYPE html>
+<html lang="en">
 
-## Program
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>FMOz 2023</title>
+  <link rel="stylesheet" href="https://uq-pac.github.io/fmoz-website/axist.css" />
+</head>
+
+<body>
+  <h1>FMOℤ 2023</h1>
+  <a href="https://uq-pac.github.io/fmoz-website"> Home </a> | <a href="https://uq-pac.github.io/fmoz-website/2026/index.html"> FMOz 2026 </a> |  <a href="https://uq-pac.github.io/fmoz-website/past.html"> Previous years </a>
+  <hr>
+
+
+
+  <h2 id="program"><a class="anchor" aria-hidden="true" href="#program"></a>Program</h2>
 <table>
 <thead>
 <tr>
@@ -123,7 +136,6 @@ F*</em></p></td>
 </tr>
 </tbody>
 </table>
-
 <table>
 <thead>
 <tr>
@@ -242,18 +254,11 @@ Zealand</em></p></td>
 </tr>
 </tbody>
 </table>
-
-
-## Abstracts
-
-Ian Hayes  
-
-**Reasoning about distribution properties in a concurrent refinement
-algebra**
-
-  
-
-Distribution properties are important for algebraic reasoning in
+<h2 id="abstracts"><a class="anchor" aria-hidden="true" href="#abstracts"></a>Abstracts</h2>
+<p>Ian Hayes</p>
+<p><strong>Reasoning about distribution properties in a concurrent refinement
+algebra</strong></p>
+<p>Distribution properties are important for algebraic reasoning in
 arithmetic and logic. They are equally important for algebraic reasoning
 about concurrent programs. While parallel composition of a command d
 distributes over a non-deterministic choice between commands, parallel
@@ -276,18 +281,12 @@ specification of a concurrent operation. The rely and guarantee commands
 satisfy the restrictions for distribution over sequential composition
 and into iterations, both finite and infinite. The distribution
 properties can also be applied to evolution guarantees and generalised
-invariants, which are also encoded as commands.
-
----
-
-Rajeev Gore (with Cormac Kikkert and Robert McArthur)  
-
-**CEGARBox(Ktn): Improved decision procedures for multimodal tense
-description logic ALCI**
-
-  
-
-We extend the monomodal CEGAR-tableaux of Gore and Kikkert to normal
+invariants, which are also encoded as commands.</p>
+<hr>
+<p>Rajeev Gore (with Cormac Kikkert and Robert McArthur)</p>
+<p><strong>CEGARBox(Ktn): Improved decision procedures for multimodal tense
+description logic ALCI</strong></p>
+<p>We extend the monomodal CEGAR-tableaux of Gore and Kikkert to normal
 multimodal (description) logic Kn (ALC) with global assumptions
 (TBoxes). We show how to handle the five basic extensions of seriality
 (KD), reflexivity (KT), transitivity (K4), euclideanness (K5), and
@@ -299,18 +298,12 @@ we refactored our Haskell implementation called CEGARBox into CEGARBox++
 using C++. We describe and analyse the effect of multiple optimisations
 which speed up proof-search and then provide experimental evidence that
 CEGARBox++ is the current best satisfiability-checker for all of these
-logics, sometimes by multiple orders of magnitude.
-
----
-
-Zhe Hou  
-
-**A Parallel and Distributed Quantum SAT Solver Based on Entanglement
-and Quantum Teleportation**
-
-  
-
-Boolean satisfiability (SAT) solving is a fundamental problem in
+logics, sometimes by multiple orders of magnitude.</p>
+<hr>
+<p>Zhe Hou</p>
+<p><strong>A Parallel and Distributed Quantum SAT Solver Based on Entanglement
+and Quantum Teleportation</strong></p>
+<p>Boolean satisfiability (SAT) solving is a fundamental problem in
 computer science. Finding efficient algorithms for SAT solving has broad
 implications in many areas of computer science and beyond. Quantum SAT
 solvers have been proposed in the literature based on Grover’s
@@ -326,18 +319,12 @@ proposed parallel SAT solver based on quantum teleportation such that
 the total qubits required are shared and distributed among a set of
 quantum computers (nodes), and the quantum SAT solving is accomplished
 collaboratively by all the nodes. We have proved the correctness of our
-approaches and demonstrated them in simulations.
-
----
-
-Naipeng Dong  
-
-**Verifying Concurrency in Blockchain: From Application Layer to
-Consensus Layer**
-
-  
-
-The blockchain technology, also known as the distributed ledger, has
+approaches and demonstrated them in simulations.</p>
+<hr>
+<p>Naipeng Dong</p>
+<p><strong>Verifying Concurrency in Blockchain: From Application Layer to
+Consensus Layer</strong></p>
+<p>The blockchain technology, also known as the distributed ledger, has
 undergone several stages of significant evolution, leading to a complex
 architecture with multiple layers. Due to its decentralized nature,
 concurrency issues are pervasive throughout the entire blockchain
@@ -346,18 +333,11 @@ themselves at the application layer taking smart contracts as example,
 and at the consensus layers taking a Byzantine Fault Tolerant algorithm
 as an example, and discusses its relevance to blockchain security, and
 then apply formal verification methods to address these challenges for
-improving the overall robustness of the entire blockchain system.
-
-
----
-
-Daniel Britten  
-
-**Provably Correct Smart Contracts using DeepSEA**
-
-  
-
-It is possible to download a piece of software over the internet and
+improving the overall robustness of the entire blockchain system.</p>
+<hr>
+<p>Daniel Britten</p>
+<p><strong>Provably Correct Smart Contracts using DeepSEA</strong></p>
+<p>It is possible to download a piece of software over the internet and
 then verify its correctness locally using an appropriate trusted proof
 system. However, on a blockchain like Ethereum, smart contracts cannot
 be altered once deployed. This guarantee of immutability makes it
@@ -369,17 +349,11 @@ deployed instance of software that they can verify while not relying on
 a central authority. The DeepSEA system, along with the Coq Proof
 Assistant, could serve as a proof system making this possible. This talk
 will discuss research undertaken related to extending the DeepSEA
-system.
-
----
-
-Horacio Mijail Anton Quiles  
-
-**Deductive Verification of Smart Contracts with Dafny**
-
-  
-
-We present a methodology to develop verified smart contracts. We write
+system.</p>
+<hr>
+<p>Horacio Mijail Anton Quiles</p>
+<p><strong>Deductive Verification of Smart Contracts with Dafny</strong></p>
+<p>We present a methodology to develop verified smart contracts. We write
 smart contracts, their specifications and implementations in the
 verification-friendly language Dafny. In our methodology the ability to
 write specifications, implementations and to reason about correctness is
@@ -390,18 +364,11 @@ smart contracts. Although we do not yet have a compiler from Dafny to
 EVM bytecode, the results we obtain on the Dafny code can reasonably be
 assumed to hold on Solidity code: the translation of the Dafny code to
 Solidity is straightforward. As a result our approach can readily be
-used to develop and deploy safer contracts.
-
-
----
-
-Amos Robinson  
-
-**Pipit: early work verifying reactive control systems in F\***
-
-  
-
-Safety-critical control systems, such as the anti-lock braking systems
+used to develop and deploy safer contracts.</p>
+<hr>
+<p>Amos Robinson</p>
+<p><strong>Pipit: early work verifying reactive control systems in F*</strong></p>
+<p>Safety-critical control systems, such as the anti-lock braking systems
 in most cars today, need to be correct and execute in real-time. We
 could write these systems directly in an imperative language such as C
 or Rust and verify them, but it can be difficult to state high-level
@@ -413,30 +380,22 @@ model-checker. These model-checkers can prove many interesting
 properties automatically, but do not provide many options when the
 automated proof techniques fail. In this talk I will describe my
 preliminary work on Pipit, an embedded domain-specific language for
-implementing and verifying such controllers in F\*. Pipit aims to
-provide a high-level language similar to Lustre, while reusing F\*’s
+implementing and verifying such controllers in F*. Pipit aims to
+provide a high-level language similar to Lustre, while reusing F*’s
 proof automation and manual proofs for verifying controllers, and using
 LowStar’s C-code generation for real-time execution. Pipit translates
 its expression language to a transition system for k-inductive proofs,
 which is mostly verified; verifying the translation to imperative code
-is future work.
-
-Amos Robinson did his PhD in streaming programming languages and stream
+is future work.</p>
+<p>Amos Robinson did his PhD in streaming programming languages and stream
 fusion at UNSW in Sydney, Australia. For the past three years he was
 working at a self-driving car company where he verified these sorts of
 control systems. He has just started a postdoc at the Australian
-National University, where he will be working with Alex Potanin.
-
-
----
-
-Annabelle McIver  
-
-**Leakage Logic for programs**
-
-  
-
-An information-flow analysis views a program as a system that processes
+National University, where he will be working with Alex Potanin.</p>
+<hr>
+<p>Annabelle McIver</p>
+<p><strong>Leakage Logic for programs</strong></p>
+<p>An information-flow analysis views a program as a system that processes
 “high security” secret information, e.g. passwords; but sometimes
 programs’ treatment of secrets can be correlated to observed behaviour,
 or other data of “low security”. Those programs then “leak” information
@@ -446,28 +405,19 @@ behaviours such as control flow, timings, or low- security correlations.
 In such programs verification usually entails quantifying the amount of
 information that the program leaks. Interestingly, some inputs are more
 vulnerable than others and an important goal of such formal analysis is
-to identify which inputs are most vulnerable.
-
-In this talk I shall explain how to specify leakage bounds on programs
+to identify which inputs are most vulnerable.</p>
+<p>In this talk I shall explain how to specify leakage bounds on programs
 that can be verified directly using a logic of information leakages. The
 leakage logic is based on the g-leakage framework for analysing
 quantitative security propeties; importantly verification steps are
-similar to the backwards reasoning in standard functional verification.
-
-A number of examples will be presented to illustrate the mathematical
-properties of leakage logic.
-
-
----
-
-Natasha Fernandes  
-
-**Formal analysis of utility in privacy pipelines using quantitative
-information flow and Kronecker products**
-
-  
-
-Systems which process sensitive information scheduled for public release
+similar to the backwards reasoning in standard functional verification.</p>
+<p>A number of examples will be presented to illustrate the mathematical
+properties of leakage logic.</p>
+<hr>
+<p>Natasha Fernandes</p>
+<p><strong>Formal analysis of utility in privacy pipelines using quantitative
+information flow and Kronecker products</strong></p>
+<p>Systems which process sensitive information scheduled for public release
 typically require privacy protections to protect the sensitive
 attributes in the data, while also allowing useful information to be
 extracted from the release. This balance is usually achieved
@@ -482,19 +432,12 @@ above phenomenon uses existing concepts from quantitative information
 flow, and introduces Kronecker products, which provide an algebra for
 composability under the “local” model for differential privacy. This
 approach offers the prospect of formal-analysis tools for utility that
-complement extant formal analyses of privacy.
-
-
----
-
-Rob Sison  
-
-**Formalising the Prevention of Microarchitectural Timing Channels by
-Operating Systems**
-
-  
-
-Microarchitectural timing channels are a well-known mechanism for
+complement extant formal analyses of privacy.</p>
+<hr>
+<p>Rob Sison</p>
+<p><strong>Formalising the Prevention of Microarchitectural Timing Channels by
+Operating Systems</strong></p>
+<p>Microarchitectural timing channels are a well-known mechanism for
 information leakage. Time protection has recently been demonstrated as
 an operating-system mechanism able to prevent them. However, established
 theories of information-flow security are insufficient for verifying
@@ -505,19 +448,12 @@ nonleakage property over a careful model of the state elements that
 cause timing channels. We instantiate and prove our property over a
 generic model of OS interaction with its users, demonstrating for the
 first time the feasibility of proving time protection for OS
-implementations. This work was first presented in March at FM 2023.
-
-
----
-
-Scott Buckley  
-
-**Will it bend? Plugging a real microkernel (seL4) into our generic time
-protection model**
-
-  
-
-In our earlier work, we built a generic kernel model that enforces time
+implementations. This work was first presented in March at FM 2023.</p>
+<hr>
+<p>Scott Buckley</p>
+<p><strong>Will it bend? Plugging a real microkernel (seL4) into our generic time
+protection model</strong></p>
+<p>In our earlier work, we built a generic kernel model that enforces time
 protection, distilling formal requirements and showing that a
 microkernel that meets those requirements will correctly enforce time
 protection. Recently our task has been to prove that seL4’s time
@@ -527,18 +463,11 @@ any changes to the abstract specification will create significant work
 repairing its proofs. I will discuss how we accomplished the task of
 bending seL4 into the right shape to be able to prove time protection
 properties about it, while minimising breakages to its existing model
-and proofs.
-
-
----
-
-Athanasios Evangelou-Oost  
-
-**Trace models of concurrent valuation algebras**
-
-  
-
-We introduce concurrent valuation algebras (CVAs), algebraic structures
+and proofs.</p>
+<hr>
+<p>Athanasios Evangelou-Oost</p>
+<p><strong>Trace models of concurrent valuation algebras</strong></p>
+<p>We introduce concurrent valuation algebras (CVAs), algebraic structures
 that build upon valuation algebras and offer significant potential for
 the specification and modelling of concurrent and distributed systems.
 Our study begins with an introduction to a variant of valuation algebras
@@ -554,45 +483,30 @@ Moreover, we indicate how the classical reasoning methodologies of Hoare
 and rely-guarantee logics for concurrent programs can be expressed
 within the algebraic structure of a CVA. Finally, we outline several
 trace models for CVAs with practical relevance, including action, state,
-and relative state trace models.
-
-Our findings pave the way for future research on the applications of
+and relative state trace models.</p>
+<p>Our findings pave the way for future research on the applications of
 CVAs to the specification and modelling of concurrent and distributed
 systems, and the import of the highly effective and practical local
-computation framework of valuation algebras to this realm.
-
----
-
-Weiyou Wang  
-
-**On the way towards justness**
-
-  
-
-Most fairness assumptions used for verifying liveness properties are
+computation framework of valuation algebras to this realm.</p>
+<hr>
+<p>Weiyou Wang</p>
+<p><strong>On the way towards justness</strong></p>
+<p>Most fairness assumptions used for verifying liveness properties are
 criticised for being too strong or unrealistic. On the other hand,
 justness, arguably the minimal fairness assumption required for the
 verification of liveness properties, is not preserved by classical
-semantic equivalences, such as strong bisimilarity.
-
-In this talk, we will discuss (1) labelled transition systems upgraded
+semantic equivalences, such as strong bisimilarity.</p>
+<p>In this talk, we will discuss (1) labelled transition systems upgraded
 with a successor relation to capture the notion of justness, (2)
 enabling preserving bisimulation equivalence (ep-bisimilarity), a finer
 alternative to strong bisimilarity, which preserves justness, and (3)
 our recent work enriching the well-known De Simone format and showing
 that ep-bisimilarity is a congruence for operators and recursion,
-regarding all process algebras in this format.
-
-
----
-
-Ralf Huuck  
-
-**Static Analysis: A Billion Dollars Later**
-
-  
-
-Static analysis has come a long way from compiler construction and
+regarding all process algebras in this format.</p>
+<hr>
+<p>Ralf Huuck</p>
+<p><strong>Static Analysis: A Billion Dollars Later</strong></p>
+<p>Static analysis has come a long way from compiler construction and
 optimisation to forming the core of application security tooling for
 most software companies on the planet. Similarly, the underlying
 technologies have been changing from early pattern matching and data
@@ -602,28 +516,25 @@ industry. The reasons are manifold and sometimes surprising. In this
 talk we give an overview of different static analysis techniques, their
 uptake in industry and some of the barriers to entry. Moreover, we
 highlight a few drivers in industry that can potentially inspire new
-research directions.
-
-Ralf is a recovering academic and entrepreneur with a background in
+research directions.</p>
+<p>Ralf is a recovering academic and entrepreneur with a background in
 formal methods and software security. He received a PhD in Computer
 Science from the University of Kiel, Germany, and had been a long time
 research leader at NICTA/DATA61. He led the static analysis security
 spinout Goanna Software, which was later acquired by Synopys and forms
 part of their Coverity SAST product. Recently Ralf has been leading
 Logilica, a boutique consulting and software productivity company,
-counting many major players as their customers.
-
----
-
-Matthew Roberts  
-
-**The Teaching for Formal Methods in Australia and New Zealand**
-
-  
-
-We present the results of research examining which tertiary institutions
+counting many major players as their customers.</p>
+<hr>
+<p>Matthew Roberts</p>
+<p><strong>The Teaching for Formal Methods in Australia and New Zealand</strong></p>
+<p>We present the results of research examining which tertiary institutions
 in Australia and New Zealand offer formal methods courses. We categorise
 and compare the offerings according to ACM curriculum categories. The
 aim of this research is to inform institutions planning on offering or
 redeveloping formal methods and to ignite a discussion amongst the
-formal methods community about the best way to teach formal methods.
+formal methods community about the best way to teach formal methods.</p>
+
+
+</body>
+</html>
