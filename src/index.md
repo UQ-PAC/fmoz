@@ -9,18 +9,18 @@ FMOz (Formal Methods Australia) is a friendly informal workshop, running
 FMOz is an opportunity to meet with researchers, practioners and industry working on and with Formal Methods
 and Formal Verification, to share ideas and form collaborations. 
 
+FMOz is typically organised in June/July to coincide with the Semester 1 study break.
+If you want to recieve the announcement each year, please subscribe to the [mailing list](https://lists.eait.uq.edu.au/mailman/listinfo/fmoz),
+and forward it to colleagues who may be interested.
 
 [**FMOz 2026**](2026/index.html) will be held on the **4th-5th of June**, 2026. 
 If you are interested in attending or presenting, please see the [call for
 presentations](2026/call-for-presentations.html).
 
-FMOz is typically organised in June/July to coincide with the Semester 1 study break.
-If you want to recieve the announcement each year, please subscribe to the [mailing list](https://lists.eait.uq.edu.au/mailman/listinfo/fmoz),
-and forward it to colleagues who may be interested.
-
 ### Organisers
 
-FMOz is organised by [Dr Kirsten Winter](https://www.cyber.uq.edu.au/profile/263/kirsten-winter).
+FMOz is organised by [Dr Kirsten Winter](https://www.cyber.uq.edu.au/profile/263/kirsten-winter),
+[Assoc. Prof. Graeme Smith](https://www.cyber.uq.edu.au/profile/317/graeme-smith).
 
 This website is maintained by Alicia, errata can be directed
 [here](https://github.com/uq-pac/fmoz-website/issues) or to the [mailing
