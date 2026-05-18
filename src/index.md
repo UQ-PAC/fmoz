@@ -14,8 +14,8 @@ If you want to recieve the announcement each year, please subscribe to the [mail
 and forward it to colleagues who may be interested.
 
 [**FMOz 2026**](2026/index.html) will be held on the **4th-5th of June**, 2026. 
-If you are interested in attending or presenting, please see the [call for
-presentations](2026/call-for-presentations.html).
+The program can be found at [
+2026/program](2026/program.html).
 
 ### Organisers
 
