@@ -463,7 +463,7 @@ insights of the work.
 ---
 
   
-Robert Sison (UNSW)  
+Rob Sison (UNSW)  
 
 **Clearing roadblocks to Time Protection verification for seL4**
 
