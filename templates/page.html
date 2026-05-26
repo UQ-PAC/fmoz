@@ -7,18 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <title>FMOz %%CONTENTTITLE%%</title>
-  <link rel="stylesheet" href="%%SITEURL%%/axist.css" />
+  <title>%{print(site.title)}% %{print(page.title)}%</title>
+  <link rel="stylesheet" href="%{print(site.url)}%/axist.css" />
 </head>
 
 <body>
-  <h1>FMOℤ %%CONTENTTITLE%%</h1>
-  <a href="%%SITEURL%%"> Home </a> | <a href="%%SITEURL%%/2026/index.html"> FMOz 2026 </a> |  <a href="%%SITEURL%%/past.html"> Previous years </a>
+  <h1>FMOℤ %{print(page.title)}%</h1>
+  <a href="%{print(site.url)}%"> Home </a> | <a href="%{print(site.url)}%/2026/index.html"> FMOz 2026 </a> |  <a href="%{print(site.url)}%/past.html"> Previous years </a>
   <hr>
 
 
 
-  %%CONTENTBODY%%
+  %{print(page_content())}%
 
 </body>
 </html>
