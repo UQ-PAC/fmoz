@@ -18,7 +18,7 @@ There will be a dinner on the 4th at [Viet De Lites][dinner] in South Bank, a fe
 [lunch]: https://www.saintlucy.com.au/
 [dinner]: https://www.visitsouthbank.com.au/places/viet-de-lites-ec7df
 
-While attendence is free, unfortunately, we do not have funding to provide catering.
+While attendance is free, unfortunately, we do not have funding to provide catering.
 
 ### Location
 
