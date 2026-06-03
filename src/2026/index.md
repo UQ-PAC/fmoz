@@ -8,7 +8,7 @@ FMOz will be held at the University of Queensland, 4th and 5th of June, 2026.
 ### Schedule
 
 The program can be found on the [**program**](program.html) page.
-Attendence is free, however please RSVP by email so we have estimates for room bookings.
+Attendance is free, however please RSVP by email so we have estimates for room bookings.
 
 The program runs from **10am-5:15pm** on the 4th, and **9am-4:30pm** on
 the 5th, to allow those travelling interstate to fly in on the morning. On
