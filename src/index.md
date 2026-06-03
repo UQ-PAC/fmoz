@@ -4,7 +4,7 @@ template: page.html
 ---
 
 FMOz (Formal Methods Australia) is a friendly informal workshop, running
-(almost) anually since 2016, at the University of Queensland in sunny Brisbane.
+(almost) annually since 2016, at the University of Queensland in sunny Brisbane.
 
 FMOz is an opportunity to meet with researchers, practioners and industry working on and with Formal Methods
 and Formal Verification, to share ideas and form collaborations.
@@ -30,7 +30,7 @@ list](https://lists.eait.uq.edu.au/mailman/listinfo/fmoz).
 
 - [SAPLING](https://comp.anu.edu.au/sapling/index.html), the **S**ydney **A**rea
   **P**rogramming **L**anguages **IN**terest **G**roup, focuses on bringing together those interested in the
-  Programming Languages field, and runs anually in Sydney.
+  Programming Languages field, and runs annually in Sydney.
 
 
 
