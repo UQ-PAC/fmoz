@@ -1,6 +1,6 @@
 
 gen: sb
-	./sb -- --url https://uq-pac.github.io/fmoz  --title "FMOz" -o docs --prelude prelude.lua
+	./sb -- --url "https://uq-pac.github.io/fmoz"  --title "FMOz" -o docs --prelude prelude.lua
 
 sb:
 	wget "https://github.com/agle/sb/releases/download/v0.0.1/sb"
@@ -8,6 +8,4 @@ sb:
 
 
 watch: sb
-	./sb -- --preview 8000 --title agle
-
-
+	./sb -- --preview 8000 --title "FMOz"

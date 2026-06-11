@@ -3,6 +3,7 @@ title:  2026 Program
 template: page.html
 ---
 
+
 <table>
 <thead>
 <tr>
@@ -35,6 +36,7 @@ SAT-shortcuts</em></p></td>
 <td style="text-align: left;">10.30 – 11.00</td>
 <td style="text-align: left;"><p><span><strong>Thomas
 Haines</strong></span><br />
+<a href="slides/FM-OZ-2026_Thomas_Haines.pdf">slides</a>
 </p>
 <p><em>Vestigial Vulnerabilities That Haunt Verified E-Voting
 Systems</em></p></td>
@@ -60,8 +62,8 @@ Systems</em></p></td>
 </tr>
 <tr>
 <td style="text-align: left;">12.00 – 12.30</td>
-<td style="text-align: left;"><p><span><strong>Rihui
-Wu</strong></span><br />
+<td style="text-align: left;"><p><span><strong>Rihui Wu</strong></span><br />
+<a href="slides/FM-OZ-2026_Rihui_Wu.pdf">slides</a>
 </p>
 <p><em>Adding support for memory barriers in Pancake</em></p></td>
 </tr>
@@ -69,6 +71,7 @@ Wu</strong></span><br />
 <td style="text-align: left;">12.30 – 13.00</td>
 <td style="text-align: left;"><p><span><strong>Yan Liu</strong>
 </span><br />
+<a href="slides/FM-OZ-2026_Yan_Liu.pdf">slides</a>
 </p>
 <p><em>CoreFi: An Orchestration Language for Embedded Systems — Bridging
 Implementation to Specification</em></p></td>
@@ -89,6 +92,7 @@ Implementation to Specification</em></p></td>
 <td style="text-align: left;">14.45 –15.15</td>
 <td style="text-align: left;"><p><span><strong>Junming Zhao</strong>
 </span><br />
+<a href="slides/FM-OZ-2026_Junming_Zhao.pdf">slides</a>
 </p>
 <p><em>A Rely-Guarantee + Separation Logic for Verifying Microkit-Based
 Systems</em></p></td>
@@ -97,6 +101,7 @@ Systems</em></p></td>
 <td style="text-align: left;">15.15 – 15.45</td>
 <td style="text-align: left;"><p><span><strong>Vincent Jackson</strong>
 </span><br />
+<a href="slides/FM-OZ-2026_Vincent_Jackson.pdf">slides</a>
 </p>
 <p><em>SecRGSep: A General Logic for Information Flow
 Security</em></p></td>
@@ -117,6 +122,7 @@ Security</em></p></td>
 <td style="text-align: left;">16.15 – 16.45</td>
 <td style="text-align: left;"><p><span><strong>Chelsea
 Edmonds</strong></span><br />
+<a href="slides/FM-OZ-2026_Chelsea_Edmonds.pdf">slides</a>
 </p>
 <p><em>Proof Engineering in Isabelle/HOL: From Combinatorics to
 Rely-Guarantee</em></p></td>
@@ -125,6 +131,7 @@ Rely-Guarantee</em></p></td>
 <td style="text-align: left;">16.45 – 17.15</td>
 <td style="text-align: left;"><p><span><strong>Rob
 Sison</strong></span><br />
+<a href="slides/FM-OZ-2026_Rob_Sison.pdf">slides</a>
 </p>
 <p><em>Clearing roadblocks to Time Protection verification for
 seL4</em></p></td>
@@ -164,6 +171,7 @@ AI</em></p></td>
 <td style="text-align: left;">9.30 – 10.00</td>
 <td style="text-align: left;"><p><span><strong>Aaron Bembenek</strong>
 </span><br />
+<a href="slides/FM-OZ-2026_Aaron_Bembenek.pdf">slides</a>
 </p>
 <p><em>Automated Reasoning Is Inherently Deeply
 Neurosymbolic</em></p></td>
@@ -182,8 +190,9 @@ Neurosymbolic</em></p></td>
 </tr>
 <tr>
 <td style="text-align: left;">10.50 – 11.20</td>
-<td style="text-align: left;"><p><span><strong>Chistine
+<td style="text-align: left;"><p><span><strong>Christine
 Rizkallah</strong></span><br />
+<a href="slides/FM-OZ-2026_Christine_Rizkallah.pdf">slides</a>
 </p>
 <p><em>Towards Facilitating Verification across Language
 Boundaries</em></p></td>
@@ -212,6 +221,7 @@ Optimisations</em></p></td>
 <td style="text-align: left;">14.00 – 14.30</td>
 <td style="text-align: left;"><p><span><strong>Peter
 H<span>ö</span>fner</strong> </span><br />
+<a href="slides/FM-OZ-2026_Peter_Hoefner.pdf">slides</a>
 </p>
 <p><em>Towards an Algebraic Theory of Pushdown Automata and Turing
 Machines (Joint work with Yi Yao)</em> <em></em></p></td>
@@ -220,6 +230,7 @@ Machines (Joint work with Yi Yao)</em> <em></em></p></td>
 <td style="text-align: left;">14.30 – 15.00</td>
 <td style="text-align: left;"><p><span><strong>Ali Nosherwan
 Hamed</strong> </span><br />
+<a href="slides/FM-OZ-2026_Ali_Nosherwan_Hamed.pdf">slides</a>
 </p>
 <p><em>Asynchronous Hyperlogics</em></p></td>
 </tr>
@@ -247,6 +258,7 @@ LLMs</em></p></td>
 <td style="text-align: left;">16.00 – 16.30</td>
 <td style="text-align: left;"><p><span><strong>Matthew Daggitt</strong>
 </span><br />
+<a href="slides/FM-OZ-2026_Matthew_Daggitt.pdf">slides</a>
 </p>
 <p><em>Formal Verification of Neural-Cyber-Physical
 systems</em></p></td>
@@ -261,6 +273,9 @@ systems</em></p></td>
 </tr>
 </tbody>
 </table>
+
+## Slides
+
 
 
 ## Abstracts
@@ -292,6 +307,7 @@ Thomas Haines (ANU)
 
 **Vestigial Vulnerabilities That Haunt Verified E-Voting Systems**
 
+<a href="slides/FM-OZ-2026_Thomas_Haines.pdf">slides</a>
   
 
 Verifiable electronic voting systems represent one of the most ambitious
@@ -347,6 +363,7 @@ Rihui Wu (UNSW)
 
 **Adding support for memory barriers in Pancake**
 
+<a href="slides/FM-OZ-2026_Rihui_Wu.pdf">slides</a>
   
 
 Pancake is a system programming language with a formally verified
@@ -365,6 +382,8 @@ Yan Liu, Alex Potanin (ANU)
 
 **CoreFi: An Orchestration Language for Embedded Systems — Bridging
 Implementation to Specification**
+
+<a href="slides/FM-OZ-2026_Yan_Liu.pdf">slides</a>
 
   
 
@@ -394,6 +413,7 @@ Junming Zhao (UNSW)
 Systems**
 
   
+<a href="slides/FM-OZ-2026_Junming_Zhao.pdf">slides</a>
 
 Microkit-based systems on top of seL4 (such as LionsOS) have a static
 architecture: components fixed at build time, memory-region mappings
@@ -415,6 +435,7 @@ Vincent Jackson (UNSW)
 
 **SecRGSep: A General Logic for Information Flow Security**
 
+<a href="slides/FM-OZ-2026_Vincent_Jackson.pdf">slides</a>
   
 
 In this talk, I will outline my work on a general framework for
@@ -441,6 +462,7 @@ Chelsea Edmonds (UWA)
 Rely-Guarantee**
 
   
+<a href="slides/FM-OZ-2026_Chelsea_Edmonds.pdf">slides</a>
 
 Formalisation using proof assistants is often primarily viewed as a way
 to guarantee correctness, however the process itself can also lead to
@@ -467,7 +489,7 @@ Rob Sison (UNSW)
 
 **Clearing roadblocks to Time Protection verification for seL4**
 
-  
+<a href="slides/FM-OZ-2026_Rob_Sison.pdf">slides</a>
 
 This talk will present the theory and practice underpinning recent
 advances in our ongoing efforts to verify time protection for seL4 at
@@ -529,6 +551,8 @@ Aaron Bembenek (University of Melbourne)
 
 **Automated Reasoning Is Inherently Deeply Neurosymbolic**
 
+<a href="slides/FM-OZ-2026_Aaron_Bembenek.pdf">slides</a>
+
   
 
 Traditionally, automated reasoning algorithms (like those underlying SAT
@@ -557,6 +581,7 @@ Christine Rizkallah (University of Melbourne)
 **Towards Facilitating Verification across Language Boundaries**
 
   
+<a href="slides/FM-OZ-2026_Christine_Rizkallah.pdf">slides</a>
 
 Software verification is essential for building secure and reliable
 systems. Landmark projects such as the verified seL4 microkernel and the
@@ -633,6 +658,7 @@ Peter Höfner (ANU)
 **Towards an Algebraic Theory of Pushdown Automata and Turing Machines
 (Joint work with Yi Yao)**
 
+<a href="slides/FM-OZ-2026_Peter_Hoefner.pdf">slides</a>
   
 
 Kleene algebra, as shown by Dexter Kozen, provides a sound and complete
@@ -657,6 +683,7 @@ Ali Nosherwan Hamed (ANU)
 **Asynchronous Hyperlogics**
 
   
+<a href="slides/FM-OZ-2026_Ali_Nosherwan_Hamed.pdf">slides</a>
 
 Computational processes can be represented by models of an appropriate
 temporal logic, and results about the logic can be used to verify that
@@ -708,6 +735,7 @@ Matthew Daggitt (UWA)
 **Formal Verification of Neural-Cyber-Physical systems**
 
   
+<a href="slides/FM-OZ-2026_Matthew_Daggitt.pdf">slides</a>
 
 Formal verification of neural-cyber-physical systems, such as drones,
 medical devices and robots that are either fully or partially controlled
