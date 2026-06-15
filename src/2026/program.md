@@ -250,6 +250,7 @@ Hamed</strong> </span><br />
 <td style="text-align: left;">15.30 – 16.00</td>
 <td style="text-align: left;"><p><span><strong>Cezary
 Kaliszyk</strong></span><br />
+<a href="slides/FM-OZ-2026_Cezary_Kaliszyk.pdf">slides</a>
 </p>
 <p><em>Modern Proof Formalization with Strong Automation and
 LLMs</em></p></td>
@@ -707,6 +708,7 @@ Cezary Kaliszyk (University of Melbourne)
 
 **Modern Proof Formalization with Strong Automation and LLMs**
 
+<a href="slides/FM-OZ-2026_Cezary_Kaliszyk.pdf">slides</a>
   
 
 This talk compares several lines of LLM-assisted autoformalization
